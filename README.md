@@ -1,10 +1,16 @@
 # Spring Simulation
 
-C++ simulation of a damped harmonic oscillator with CSV export and Python visualization.
+C++ simulation of a damped harmonic oscillator using semi-implicit Euler integration.
+
+The simulation outputs particle position, velocity, and energy data to CSV files, which can then be analyzed and visualized using Python.
 
 ## Simulation Animation
 
 ![Spring Animation](spring_animation.gif)
+
+## Energy Drift
+
+![Energy Drift](energy_drift.png)
 
 This project implements a simple **mass–spring–damper simulation** in C++.  
 The system is integrated using a **semi-implicit (symplectic) Euler method** and exports simulation data to CSV for analysis and visualization.
@@ -74,12 +80,6 @@ This generates plots of:
 - Velocity vs Time
 - Energy vs Time
 - Energy Drift
-
-## Example Output
-
-Energy drift diagnostic:
-
-![Energy Drift](energy_drift.png)
 
 ## Future Improvements
 
