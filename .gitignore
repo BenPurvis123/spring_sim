@@ -1,0 +1,21 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Compiled binaries
+*.o
+*.out
+*.exe
+spring_sim
+Force
+simulation
+
+# Python cache
+__pycache__/
+
+# Simulation output data
+data/*.csv
+
+# VSCode settings
+.vscode/
