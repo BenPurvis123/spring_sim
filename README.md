@@ -1,4 +1,10 @@
-# Spring Simulation (Damped Harmonic Oscillator)
+# Spring Simulation
+
+C++ simulation of a damped harmonic oscillator with CSV export and Python visualization.
+
+## Simulation Animation
+
+![Spring Animation](spring_animation.gif)
 
 This project implements a simple **mass–spring–damper simulation** in C++.  
 The system is integrated using a **semi-implicit (symplectic) Euler method** and exports simulation data to CSV for analysis and visualization.
